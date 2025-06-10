@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-600 text-white p-4 flex justify-between max-w-4xl mx-auto">
+    <nav className="bg-gray-600 text-white p-4 flex justify-between max-w-10xl mx-auto">
       <div className="font-bold text-lg">
         <Link to="/">Guess the Number</Link>
       </div>
@@ -35,10 +35,10 @@ const Navbar = () => {
           </>
         ) : (
           <>
-            <Link to="/login" className="hover:underline">
+            <Link to="/auth" className="hover:underline">
               Login
             </Link>
-            <Link to="/register" className="hover:underline">
+            <Link to="/auth" className="hover:underline">
               Register
             </Link>
           </>

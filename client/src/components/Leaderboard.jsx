@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
 import { AuthContext } from "../contexts/AuthContext";
 
-const API_BASE = "http://localhost:8080/api/game";
+const API_BASE = "https://game-q245.onrender.com/api/game";
 
 const Leaderboard = () => {
   const { token } = useContext(AuthContext);

@@ -3,7 +3,7 @@ import axios from "axios";
 import { AuthContext } from "../contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = "http://localhost:8080/api/game";
+const API_BASE = "https://game-q245.onrender.com/api/game";
 
 const Game = () => {
   const { token, logout } = useContext(AuthContext);
