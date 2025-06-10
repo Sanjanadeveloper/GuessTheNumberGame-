@@ -11,7 +11,7 @@ const Home = () => {
       <div className="flex gap-4">
         <Link
           to="/auth"
-          className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+          className="bg-gray-600 text-white px-6 py-2 rounded hover:bg-gray-700"
         >
           Login / Signup
         </Link>

@@ -78,7 +78,7 @@ const AuthForm = () => {
         <div className="flex items-center justify-between">
           <button
             type="submit"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full"
+            className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded w-full"
           >
             {isLogin ? "Login" : "Register"}
           </button>
@@ -87,7 +87,7 @@ const AuthForm = () => {
         <p className="text-sm mt-4 text-center text-gray-600">
           {isLogin ? "Don't have an account?" : "Already have an account?"}{" "}
           <span
-            className="text-blue-600 hover:underline cursor-pointer"
+            className="text-gray-600 hover:underline cursor-pointer"
             onClick={() => setIsLogin(!isLogin)}
           >
             {isLogin ? "Register" : "Login"}

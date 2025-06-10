@@ -61,7 +61,7 @@ const Game = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-blue-50 px-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 px-4">
       <h1 className="text-3xl font-bold mb-6">🎯 Guess the Number Game</h1>
 
       {!gameOver ? (
@@ -75,7 +75,7 @@ const Game = () => {
           />
           <button
             onClick={handleGuess}
-            className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 w-full"
+            className="bg-yellow-600 text-white px-4 py-2 rounded hover:bg-yellow-700 w-full"
           >
             Submit Guess
           </button>
@@ -84,12 +84,12 @@ const Game = () => {
         </div>
       ) : (
         <div className="text-center">
-          <p className="text-xl font-semibold text-green-600 mb-4">{message}</p>
+          <p className="text-xl font-semibold text-yellow-600 mb-4">{message}</p>
           <p className="text-gray-700">You guessed it in {attempts} attempts!</p>
           <div className="flex justify-center gap-4 mt-6">
             <button
               onClick={handlePlayAgain}
-              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+              className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700"
             >
               Play Again
             </button>

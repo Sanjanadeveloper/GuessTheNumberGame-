@@ -59,7 +59,7 @@ const AuthForm = () => {
           required
         />
 
-        <button type="submit" className="bg-blue-500 text-white py-2 w-full rounded">
+        <button type="submit" className="bg-gray-500 text-white py-2 w-full rounded">
           {isLogin ? "Login" : "Register"}
         </button>
 
@@ -70,7 +70,7 @@ const AuthForm = () => {
               setIsLogin(!isLogin);
               setMessage("");
             }}
-            className="text-blue-500 cursor-pointer"
+            className="text-gray-500 cursor-pointer"
           >
             {isLogin ? "Register" : "Login"}
           </span>

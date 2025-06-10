@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-600 text-white p-4 flex justify-between max-w-4xl mx-auto">
+    <nav className="bg-gray-600 text-white p-4 flex justify-between max-w-4xl mx-auto">
       <div className="font-bold text-lg">
         <Link to="/">Guess the Number</Link>
       </div>
